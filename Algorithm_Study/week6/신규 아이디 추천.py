@@ -46,9 +46,11 @@ def solution(new_id):
     answer = answer[:15]
     if answer[-1] == '.':
         answer = answer[:-1]
-    print(answer)
     # 7
     while len(answer) < 3:
         answer += answer[-1]
     
     return answer
+
+while이 break가 되지 않았을 때 문제
+while자주쓰는 것 좋지않음 현지님이 쓰지말라함
